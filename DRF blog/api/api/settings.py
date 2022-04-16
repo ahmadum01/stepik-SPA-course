@@ -186,6 +186,7 @@ REST_FRAMEWORK = {
     "TEST_REQUEST_DEFAULT_FORMAT": "json",
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.DjangoModelPermissions",),
     'SEARCH_PARAM': 'q'
+
 }
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
